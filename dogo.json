@@ -1,10 +1,10 @@
 {
-    "WorkingDir": "{GOPATH}/src/github.com/xanke/17disney-etl-service",
+    "WorkingDir": "{GOPATH}/src/github.com/xanke/17disney-etl",
     "SourceDir": [
-        "{GOPATH}/src/github.com/xanke/17disney-etl-service"
+        "{GOPATH}/src/github.com/xanke/17disney-etl"
     ],
     "SourceExt": [".c", ".cpp", ".go", ".h"],
     "BuildCmd": "go build",
-    "RunCmd": "17disney-etl-service.exe",
+    "RunCmd": "17disney-etl.exe",
     "Decreasing": 1
 }

@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Sprintf("17Disney ETL Service")
+	fmt.Println("17Disney ETL Service")
 }
