@@ -9,7 +9,7 @@ import (
 
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "<h1>17Disney ETL0.1</h1>")
+	io.WriteString(w, "<h1>17Disney ETL0.2</h1>")
 }
 
 func main() {
