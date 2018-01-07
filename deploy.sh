@@ -1,8 +1,9 @@
 #! /bin/sh
 
 kill -9 $(pgrep webserver)
-cd /data/deb-go/
-git pull https://github.com/xanke/17disney-etl
+cd /data/dev-go/17disney-etl
+git pull
 
 cd webserver
-./webserver $
+go build
+./webserver &
